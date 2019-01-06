@@ -1,0 +1,116 @@
+.ins-auction {
+	width: 31.574318382%;
+	max-width: 359px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	background: #fff;
+}
+
+.ins-auction__thumb {
+	width: 100%;
+	height: 226px;
+	overflow: hidden;
+	position: relative;
+}
+
+.ins-auction__thumb__caption {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.8);
+	text-align: center;
+	font-size: 11px;
+	font-weight: 600;
+	color: #fff;
+	padding: 6px 0;
+	text-decoration: none;
+}
+
+.ins-auction__details {
+	padding: 12px;
+}
+
+.ins-big-infos {
+	width: 100%;
+	display: flex;
+}
+
+.ins-big-infos__item {
+	width: 50%;
+	text-align: center;
+}
+
+.ins-big-infos__item__name {
+	font-size: 7px;
+	color: #464932;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+	display: block;
+}
+
+.ins-big-infos__item__value {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.ins-big-infos__item--alert .ins-big-infos__item__value {
+	color: #fb6b4e;
+}
+
+.ins-big-infos__item--success .ins-big-infos__item__value {
+	color: #4fb675;
+}
+
+.ins-auction__details__title {
+	margin: 14px 0 10px;
+	padding: 13px 13.823529412%;
+	border-top: 2px solid #e4e4e4;
+	border-bottom: 2px solid #e4e4e4;	
+	line-height: 1.4em;
+}
+
+.ins-big-infos__sep, .ins-auction__details__infos__sep {
+	width: 2px;
+	height: 32px;
+	margin-top: 9px;
+	background-color: #e4e4e4;
+}
+
+.ins-auction__details__infos {
+	width: 100%;
+	display: flex;
+	border-bottom: 2px solid #e4e4e4;
+	padding-bottom: 10px;
+}
+
+.ins-auction__details__infos__item, .ins-auction__details__title {
+	font-size: 11px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #323232;
+}
+
+.ins-auction__details__infos__sep {
+	margin: 0;
+}
+
+.ins-auction__details__infos__item {
+	width: 50%;
+	padding-top: 11px;
+}
+
+.ins-button {
+	font-size: 13px;
+	font-weight: 600;
+	color: #fff;
+	display: block;
+	margin-top: 15px;
+	text-align: center;
+	padding: 12px 0;
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #4fb675;
+}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import AuctionStyle from './Auction.css';
+import './Auction.css';
 
 export default class Auction extends Component {
 	constructor(props) {
@@ -10,8 +10,8 @@ export default class Auction extends Component {
 			bids: props.car.bids
 		};
 
-		this.formatRemainingTime.bind(this);
-		this.getLastOfBidsAmount.bind(this);
+		this.formatRemainingTime = this.formatRemainingTime.bind(this);
+		this.getLastOfBidsAmount = this.getLastOfBidsAmount.bind(this);
 	}
 
 	componentDidMount() {

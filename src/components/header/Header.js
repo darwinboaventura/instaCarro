@@ -3,7 +3,7 @@ import Logo from '../../assets/images/logo.png';
 import { ReactComponent as UserIcon} from '../../assets/images/user.svg';
 import { ReactComponent as PhoneIcon} from '../../assets/images/phone.svg';
 import { ReactComponent as CaretIcon} from '../../assets/images/caret.svg';
-import HeaderStyle from './Header.css';
+import './Header.css';
 
 export default class Header extends Component {
 	render() {

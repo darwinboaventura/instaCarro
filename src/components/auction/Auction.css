@@ -4,6 +4,7 @@
 	border-radius: 5px;
 	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 	overflow: hidden;
+	margin-top: 30px;
 	background: #fff;
 }
 
@@ -12,6 +13,10 @@
 	height: 226px;
 	overflow: hidden;
 	position: relative;
+}
+
+.ins-auction__thumb img {
+	max-width: 100%;
 }
 
 .ins-auction__thumb__caption {
